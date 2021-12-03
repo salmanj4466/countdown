@@ -1,0 +1,1074 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: AtlantisBold;
+    src: url(../fonts/ATLANTISBOLD.TTF);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header-text-1-link {
+    width: 100%;
+}
+
+.header-nav-nav {
+    background-image: url(../img/header-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+        height: 90px;
+}
+
+.nav-ul {
+    width: 83% !important;
+    justify-content: center;
+}
+
+
+/* .nav-bar-bg{
+    width: 87% !important;
+} */
+
+.nav-menu {
+    padding: 0 !important;
+    max-width: 1239px;
+    margin: 0 auto;
+}
+
+.nav-a {
+    color: #ffffff !important;
+    font-family: 'AtlantisBold';
+    font-size: 16px;
+    line-height: 55px;
+    font-weight: bold;
+    padding: 0px 31px !important;
+    margin-top: -43px;
+}
+
+.head-logo {
+    width: 20%;
+    margin-left: 44px;
+    z-index: 99999;
+}
+
+.head-nav-contact {
+    position: relative;
+    width: 23%;
+}
+
+.header-text-1-link a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    color: #ffffff;
+    right: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -6px 0px 0px 11px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.header-text-1-link a {
+    position: relative;
+    text-decoration: none;
+}
+
+.header-text-2 {
+    position: relative;
+    max-width: 1097px;
+    margin: 0 auto;
+    min-height: 600px;
+}
+
+.header-text-2-1 {
+    position: absolute;
+    top: 9px;
+    left: 48px;
+    width: 30%;
+}
+
+.header-text-2-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 30%;
+}
+
+.header-text-2-3 {
+    position: absolute;
+    right: 0;
+    top: 17px;
+    width: 30%;
+}
+
+.header-text-2-4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+}
+
+.header-text-2-5 {
+    width: 6%;
+    position: absolute;
+    right: 0px;
+    top: 148px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+}
+
+.header-text-2-5 img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footer-main {
+    background-color: #310720;
+    padding: 90px 0 22px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1227px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-text-1-icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-text-1 {
+    width: 22%;
+}
+
+.footer-text-2 {
+    width: 9%;
+    margin-top: 28px;
+}
+
+.footer-text-3 {
+    width: 7%;
+    margin-top: 28px;
+}
+
+.footer-text-4 {
+    width: 11%;
+    margin-top: 28px;
+}
+
+.footer-text-5 {
+    width: 27%;
+    margin-top: 28px;
+}
+
+.footer-text-2 h2,
+.footer-text-3 h2,
+.footer-text-4 h2 {
+    font-size: 24px;
+    line-height: 54px;
+    color: #fff;
+    font-weight: bold;
+    font-family: AtlantisBold;
+}
+
+.footer-text-2 a,
+.footer-text-3 a,
+.footer-text-4 a {
+    font-size: 13px;
+    line-height: 54px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+}
+
+.footer-text-2 a:hover,
+.footer-text-3 a:hover,
+.footer-text-4 a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-icon1-img,
+.footer-icon2-img,
+.footer-icon3-img,
+.footer-icon4-img {
+    width: 16%;
+    margin-top: 40px;
+}
+
+.footer-text-5-text h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    margin-top: -20px;
+    color: #310720;
+    font-family: AtlantisBold;
+}
+
+.footer-text-5-input {
+    position: relative;
+    width: 91%;
+    margin: 0 auto;
+}
+
+#footer-email {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #562500;
+    background-color: #E9C087;
+}
+
+.footer-text-5-input a {
+    position: absolute;
+    right: 0px;
+    background-color: #562500;
+    color: white;
+    padding: 10px 22px;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: AtlantisBold;
+}
+
+.footer-text-5-input a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer-email:focus {
+    outline: none;
+}
+
+.footer-text-5-text {
+    background-image: url(../img/footer-subscrbe-bg.png);
+    background-repeat: no-repeat;
+    padding: 60px 37px;
+}
+
+#footer-email::placeholder {
+    color: #B25F23;
+    font-size: 10px;
+    line-height: 54px;
+}
+
+.btn-solid-reg {
+    display: inline-block;
+    padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+    border: 1px solid #a91265;
+    border-radius: 32px;
+    background-color: #a91265;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-solid-reg:hover {
+    border: 1px solid #a91265;
+    background-color: transparent;
+    color: #a91265;
+    text-decoration: none;
+}
+
+.btn-solid-lg {
+    display: inline-block;
+    padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+    border: 1px solid #a91265;
+    border-radius: 32px;
+    background-color: #a91265;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+    border: 1px solid #a91265;
+    background-color: transparent;
+    color: #a91265;
+    text-decoration: none;
+}
+
+.btn-outline-reg {
+    display: inline-block;
+    padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+    border: 1px solid #ffffff;
+    border-radius: 32px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-outline-reg:hover {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-outline-lg {
+    display: inline-block;
+    padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+    border: 1px solid #ffffff;
+    border-radius: 32px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-outline-lg:hover {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-outline-sm {
+    display: inline-block;
+    padding: 1rem 1.625rem 1rem 1.625rem;
+    border: 1px solid #ffffff;
+    border-radius: 32px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-outline-sm:hover {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+
+.label-control {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    color: #585f63;
+    opacity: 1;
+    font-size: 0.9rem;
+    line-height: 1.375rem;
+    cursor: text;
+    transition: all 0.2s ease;
+}
+
+.form-control-input:focus+.label-control,
+.form-control-input.notEmpty+.label-control,
+.form-control-textarea:focus+.label-control,
+.form-control-textarea.notEmpty+.label-control {
+    top: 0.125rem;
+    opacity: 1;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.form-control-input,
+.form-control-select {
+    display: block;
+    /* needed for proper display of the label in Firefox, IE, Edge */
+    width: 100%;
+    padding-top: 1.125rem;
+    padding-bottom: 0.375rem;
+    padding-left: 1.875rem;
+    border: 1px solid #c4d8dc;
+    border-radius: 32px;
+    background-color: #ffffff;
+    color: #30363a;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    transition: all 0.2s;
+    -webkit-appearance: none;
+    /* removes inner shadow on form inputs on ios safari */
+}
+
+.form-control-select {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 3rem;
+}
+
+select {
+    /* you should keep these first rules in place to maintain cross-browser behavior */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-image: url('../images/down-arrow.png');
+    background-position: 96% 50%;
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+.form-control-textarea {
+    display: block;
+    /* used to eliminate a bottom gap difference between Chrome and IE/FF */
+    width: 100%;
+    height: 14rem;
+    /* used instead of html rows to normalize height between Chrome and IE/FF */
+    padding-top: 1.5rem;
+    padding-left: 1.875rem;
+    border: 1px solid #c4d8dc;
+    border-radius: 0;
+    background-color: #ffffff;
+    color: #30363a;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    transition: all 0.2s;
+}
+
+.form-control-input:focus,
+.form-control-select:focus,
+.form-control-textarea:focus {
+    border: 1px solid #a1a1a1;
+    outline: none;
+    /* removes blue border on focus */
+}
+
+.form-control-input:hover,
+.form-control-select:hover,
+.form-control-textarea:hover {
+    border: 1px solid #a1a1a1;
+}
+
+.checkbox {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+}
+
+input[type='checkbox'] {
+    vertical-align: -10%;
+    margin-right: 0.5rem;
+}
+
+.form-control-submit-button {
+    display: inline-block;
+    width: 100%;
+    height: 3.5rem;
+    border: 1px solid #f1ab29;
+    border-radius: 32px;
+    background-color: #f1ab29;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.form-control-submit-button:hover {
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.countdown-section {
+    padding-top: 80px;
+}
+
+.countdown-section h1 {
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-family: 'AtlantisBold';
+}
+
+
+/******************/
+
+
+/*     Header     */
+
+
+/******************/
+
+.countdown-block {
+    position: relative;
+    min-height: 100%;
+    padding: 60px 0 50px;
+    background-color: #fff;
+    background-image: url("../img/tokenomic-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.countdown-block .logo-image {
+    display: block;
+    width: 120px;
+    margin-right: auto;
+    margin-bottom: 1.75rem;
+    margin-left: auto;
+    opacity: 0.8;
+}
+
+.countdown-block .logo-text {
+    display: block;
+    margin-bottom: 2rem;
+    color: #ffffff;
+    opacity: 0.8;
+    font-weight: 700;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.countdown-block .countdown {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.countdown-block .countdown #clock .counter-number {
+    display: inline-block;
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1.25rem;
+    margin-left: 0.5rem;
+    padding-top: 2rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.25rem;
+}
+
+.countdown-block .countdown #clock .counter-number .timer-text {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+
+.countdown-block h1 {
+    margin-bottom: 1.5rem;
+}
+
+.countdown-block .p-large {
+    margin-bottom: 2.75rem;
+        font-size: 22px;
+        color: #fff;
+}
+
+.countdown-block .fa-stack {
+    width: 2em;
+    margin-bottom: 0.75rem;
+    margin-right: 0.375rem;
+    font-size: 1.25rem;
+}
+
+.social-container {
+    margin-top: 30px;
+}
+
+.countdown-block .social-container .fa-stack:last-child {
+    margin-right: 0;
+}
+
+.countdown-block .fa-stack .fa-stack-1x {
+    color: #a91265;
+    transition: all 0.2s ease;
+}
+
+.countdown-block .fa-stack .fa-stack-2x {
+    color: #ffffff;
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+
+.countdown-block .fa-stack:hover .fa-stack-2x {
+    opacity: 1;
+}
+
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #310720
+}
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.8
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0
+}
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75
+}
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+#scrollTop {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #310720;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#scrollTop:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+
+/*-------------------- Responsive ---------------------*/
+
+
+/*-------------------- Query at 1200px ---------------------*/
+
+@media (min-width: 768px) {
+    /* Header */
+    .countdown-block {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 70px 0 50px;
+    }
+ 
+    .countdown-block .countdown {
+        margin-bottom: 2.5rem;
+    }
+    .countdown-block .countdown #clock .counter-number {
+        width: 7.75rem;
+        height: 7.75rem;
+        margin-bottom: 0;
+        padding-top: 2.5rem;
+        font-size: 3rem;
+        line-height: 1.5rem;
+    }
+    .countdown-block .countdown #clock .counter-number .timer-text {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+    .countdown-block .form-group {
+        max-width: 22rem;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .countdown-block .form-control-input {
+        width: 22rem;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .countdown-block .form-control-submit-button {
+        width: 10rem;
+        margin-left: -0.375rem;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    /* end of header */
+}
+
+
+/* Min-width 992px */
+
+@media (min-width: 992px) {
+    /* Header */
+    .countdown-block .countdown #clock .counter-number {
+        width: 8rem;
+        height: 8rem;
+        padding-top: 2.6rem;
+        font-size: 3rem;
+    }
+ 
+    /* end of header */
+}
+
+@media (min-width: 1200px) {
+    .countdown-block h1 {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        letter-spacing: -0.4px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav-menu {
+        padding: 0 !important;
+        max-width: 928px;
+        margin: 0 auto;
+    }
+    .nav-a {
+        font-size: 15px;
+        padding: 0px 15px !important;
+        margin-top: -33px;
+    }
+    .header-text-1-link a span {
+        font-size: 14px;
+        margin: 0px 0px 0px 4px;
+        font-weight: 500;
+    }
+    .header-text-1-link {
+        width: 89%;
+    }
+    .header-text {
+        min-height: 680px;
+    }
+    .header-text-2 {
+        max-width: 840px;
+        min-height: 530px;
+    }
+    .header-text-2-1,
+    .header-text-2-2,
+    .header-text-2-3,
+    .header-text-2-4 {
+        width: 36%;
+    }
+    .header-text-2-5 img {
+        max-width: 432px;
+        min-height: unset;
+    }
+    .footer-dark {
+        padding: 50px 0;
+        color: #f0f9ff;
+        background-color: #121212
+    }
+    .footer-dark h3 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-weight: bold;
+        font-size: 16px
+    }
+    .footer-dark ul {
+        padding: 0;
+        list-style: none;
+        line-height: 1.6;
+        font-size: 14px;
+        margin-bottom: 0
+    }
+    .footer-dark ul a {
+        color: inherit;
+        text-decoration: none;
+        opacity: 0.6
+    }
+    .footer-dark ul a:hover {
+        opacity: 0.8
+    }
+
+    .header-nav-nav {
+        height: 65px;
+    }
+
+    .countdown-section {
+    padding-top: 58px;
+}
+}
+
+
+/*-------------------- Query at 991px ---------------------*/
+
+@media only screen and (max-width:991px) {
+    .nav-a {
+        font-size: 14px;
+        padding: 0px 8px !important;
+        margin-top: -33px;
+    }
+    .header-text-1-link {
+        width: 85%;
+    }
+    .header-text-1-link a span {
+        font-size: 12px;
+        margin: 1px 0px 0px 8px;
+    }
+    .nav-menu {
+        padding: 0 !important;
+        max-width: 726px;
+        margin: 0 auto;
+    }
+    .header-text-2-1,
+    .header-text-2-2,
+    .header-text-2-3,
+    .header-text-2-4 {
+        width: 38%;
+    }
+    .header-text-2 {
+        max-width: 653px;
+        min-height: 530px;
+    }
+    .footer-text {
+        max-width: 717px;
+    }
+    .footer-text-2 h2,
+    .footer-text-3 h2,
+    .footer-text-4 h2 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .footer-text-2 a,
+    .footer-text-3 a,
+    .footer-text-4 a {
+        font-size: 13px;
+        line-height: 33px;
+    }
+    .footer-text-5 {
+        width: 38%;
+        margin-top: 28px;
+    }
+    .footer-text-2 {
+        width: 7%;
+        margin-top: 28px;
+    }
+    .footer-text-3 {
+        width: 5%;
+        margin-top: 28px;
+    }
+    .footer-text-4 {
+        width: 8%;
+        margin-top: 28px;
+    }
+    .footer-text-5-text h2 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+
+/*-------------------- Query at 767px ---------------------*/
+
+@media only screen and (max-width:767px) {
+    .navbar-dark .navbar-toggler {
+        border: none;
+        outline: none;
+    }
+    #collapsibleNavbar {
+        position: absolute;
+        top: 37px;
+        left: 0px;
+        right: 0px;
+        background-color: #32302dc9;
+        z-index: 9;
+    }
+    .header-nav-nav {
+        background-size: 220%;;
+        position: relative;
+    }
+    .nav-a {
+        font-size: 14px;
+        padding: 0px 8px !important;
+        margin-top: 17px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .head-logo {
+        position: relative;
+        width: 30%;
+        margin-left: 21px;
+    }
+    .head-logo img {
+        position: absolute;
+        top: -16px;
+        left: 8px;
+    }
+    .head-nav-contact {
+        position: relative;
+        width: 36%;
+        margin: 20px auto 0;
+    }
+    .header-text-1-link {
+        width: 100%;
+    }
+    .nav-ul {
+        width: 100% !important;
+        justify-content: center;
+    }
+    .header-text-2-1,
+    .header-text-2-2,
+    .header-text-2-3,
+    .header-text-2-4 {
+        width: 27%;
+    }
+    .header-text-2-5 img {
+        max-width: 170px;
+    }
+    .sec-1-text {
+        height: 102px;
+    }
+    .header-text-2 {
+        max-width: 336px;
+    }
+    .header-text-2-1 {
+        left: 0;
+        top: 58px;
+    }
+    .header-text-2-3 {
+        top: 54px;
+    }
+    .header-text-2-5 {
+        top: 56px;
+    }
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px
+    }
+    .main-logo {
+        width: 100px;
+    }
+    .footer-dark .item.text {
+        margin-bottom: 0
+    }
+
+    .countdown-block .p-large {
+        font-size: 18px;
+    }
+
+    .countdown-section h1 {
+        font-size: 30px;
+    }
+
+
+    .form-control-submit-button, 
+    .form-control-input, .form-control-select {
+            height: 2.8rem;
+    }
+
+    .label-control {
+        top: 0.7rem;
+    }
+
+    .countdown-section {
+        padding-top: 0;
+    }
+
+    .header-nav-nav {
+        height: auto;
+    }
+}
